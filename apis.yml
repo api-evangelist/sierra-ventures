@@ -1,0 +1,97 @@
+aid: sierra-ventures
+name: Sierra Ventures
+description: >-
+  Sierra Ventures is an early-stage venture capital firm founded by Peter
+  Wendell in 1982 and headquartered in San Mateo, California, in the heart of
+  Silicon Valley. The firm invests from inception through Series A in
+  first-principles founders under the tagline "Conviction Before Consensus,"
+  writing checks of up to $5M at seed and up to $10M at Series A. Sierra's
+  current investment thesis centers on the next wave of enterprise technology:
+  Vertical AI (purpose-built AI for specific industries), Infrastructure AI,
+  Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding
+  history in enterprise applications, digital health, SaaS, and security. Over
+  its 40-plus-year history the firm has invested more than $2 billion across 13
+  early-stage funds, with its 13th fund closing in 2023 at $265 million,
+  following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports
+  35 IPOs and hundreds of successful exits, having backed companies such as
+  Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor
+  Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of
+  Fortune 1000 enterprise leaders who help portfolio companies land early
+  customers. This profile tracks Sierra Ventures' identity and its portfolio
+  graph across the API Evangelist network.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+  - Venture Capital
+  - Early Stage
+  - Seed
+  - Series A
+  - Artificial Intelligence
+  - Vertical AI
+  - Infrastructure
+  - Enterprise
+  - Deep Tech
+  - Frontier Tech
+  - Physical AI
+  - Robotics
+  - Digital Health
+  - San Mateo
+  - Silicon Valley
+  - United States
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/sierra-ventures/refs/heads/main/apis.yml
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.sierraventures.com/
+  - type: Portfolio
+    url: https://www.sierraventures.com/portfolio
+  - type: Portfolio
+    url: portfolio/sierra-ventures-portfolio.yml
+  - type: Team
+    url: https://www.sierraventures.com/team
+  - type: Team
+    url: team/sierra-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://www.sierraventures.com/about
+  - type: Blog
+    url: https://www.sierraventures.com/content
+  - type: Podcast
+    url: https://www.youtube.com/@sierraventures/featured
+  - type: Jobs
+    url: https://careers.sierraventures.com/
+  - type: Contact
+    url: https://www.sierraventures.com/about
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sierra-ventures
+  - type: Twitter
+    url: https://twitter.com/Sierra_Ventures
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/sierra-ventures
+  - type: Features
+    data:
+      - "Stage: Inception, Seed, Series A (early stage)"
+      - "Typical check: up to $5M at seed; up to $10M at Series A"
+      - "Sectors: Vertical AI, Infrastructure AI, Frontier & Deep Tech, Physical AI & Robotics, enterprise applications, digital health, SaaS, security"
+      - "Geography: United States (Silicon Valley), global"
+      - "AUM: $2B+ invested across 13 early-stage funds (self-reported)"
+      - "Latest fund: Sierra Ventures XIII, $265M (2023); Fund XII $215M; Fund XI $170M"
+      - "Founded: 1982 (Peter Wendell)"
+      - "HQ: San Mateo, CA (1400 Fashion Island Blvd. Ste. 1010)"
+      - "Track record: 35 IPOs; hundreds of exits (self-reported)"
+    sources:
+      - https://www.sierraventures.com/
+      - https://www.sierraventures.com/about
+      - https://en.wikipedia.org/wiki/Sierra_Ventures
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Sierra Ventures
+    url: https://www.sierraventures.com/
