@@ -3,9 +3,9 @@ method: searched
 source: https://www.sierraventures.com/portfolio
 summary:
   portfolio_total: 84
-  in_network: 13
-  api_providers: 8
-  missing: 71
+  in_network: 84
+  api_providers: 22
+  missing: 0
   stubs_created: 0
 companies:
 - name: 10Web
@@ -13,49 +13,55 @@ companies:
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: 10web
+  in_network: true
+  is_api_provider: true
+  slug: 10web
+  matched_by: domain
 - name: 360 Commerce
   url: https://360commerce.co.nz/
   sector: retail-tech
   status: unknown
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 360-commerce
+  slug: 360-commerce
+  matched_by: domain
 - name: Active Network
   url: https://activenetwork.com/
   sector: saas
   status: acquired
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: active-network
+  slug: activenetwork
+  matched_by: domain
 - name: AgentIQ
   url: https://agentiq.com/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agentiq
+  slug: agentiq
+  matched_by: domain
 - name: Altimate AI
   url: https://altimate.ai/
   sector: data
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: altimate-ai
+  slug: altimate
+  matched_by: domain
 - name: Amerigroup
   url: https://amerigroup.com/
   sector: digital-health
   status: acquired
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amerigroup
+  slug: amerigroup
+  matched_by: domain
 - name: Appcues
   url: https://appcues.com/
   sector: saas
@@ -79,73 +85,82 @@ companies:
   sector: fintech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: approva
+  slug: approva
+  matched_by: domain
 - name: ArmorCode
   url: https://armorcode.com/
   sector: security
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: armorcode
+  slug: armorcode
+  matched_by: domain
 - name: Astronomer
   url: https://astronomer.io/
   sector: data
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: astronomer
+  in_network: true
+  is_api_provider: true
+  slug: astronomer
+  matched_by: domain
 - name: ATMI Sales
   url: https://atmisales.com/
   sector: saas
   status: unknown
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atmi-sales
+  slug: atmi-sales
+  matched_by: domain
 - name: Augmentus
   url: https://augmentus.tech/
   sector: robotics
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: augmentus
+  slug: augmentus
+  matched_by: domain
 - name: Balto
   url: https://balto.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: balto
+  slug: balto
+  matched_by: domain
 - name: Band AI
   url: https://band.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: band-ai
+  in_network: true
+  is_api_provider: true
+  slug: band-ai
+  matched_by: domain
 - name: Calyptia
   url: https://calyptia.com/
   sector: infrastructure
   status: acquired
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: calyptia
+  in_network: true
+  is_api_provider: true
+  slug: calyptia
+  matched_by: domain
 - name: CarWale
   url: https://carwale.com/
   sector: marketplace
   status: acquired
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carwale
+  slug: carwale
+  matched_by: domain
 - name: Chronosphere
   url: https://chronosphere.io/
   sector: infrastructure
@@ -160,17 +175,19 @@ companies:
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cimulate
+  slug: cimulate
+  matched_by: domain
 - name: Citcon
   url: https://citcon.com/
   sector: fintech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: citcon
+  slug: citcon
+  matched_by: domain
 - name: Clip
   url: https://clip.mx/
   sector: fintech
@@ -185,49 +202,55 @@ companies:
   sector: edtech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: course-hero
+  slug: course-hero
+  matched_by: domain
 - name: Dasera
   url: https://dasera.com/
   sector: security
   status: acquired
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dasera
+  slug: dasera
+  matched_by: domain
 - name: DeepHow
   url: https://deephow.com/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deephow
+  slug: deephow
+  matched_by: domain
 - name: DGIT
   url: https://dgit.us/
   sector: saas
   status: unknown
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dgit
+  slug: dgit
+  matched_by: name-slug
 - name: DNN Software
   url: https://dnnsoftware.com/
   sector: saas
   status: unknown
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dnn-software
+  slug: dnn-software
+  matched_by: domain
 - name: Eden
   url: https://edenmed.com/
   sector: digital-health
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eden
+  slug: eden
+  matched_by: domain
 - name: Elastic
   url: https://elastic.co/
   sector: infrastructure
@@ -242,17 +265,19 @@ companies:
   sector: hardware
   status: unknown
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eltek
+  slug: eltek
+  matched_by: domain
 - name: Enable
   url: https://enable.com/
   sector: saas
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enable
+  slug: enable
+  matched_by: name-slug
 - name: Endor Labs
   url: https://endorlabs.com/
   sector: security
@@ -267,25 +292,28 @@ companies:
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eudia
+  slug: eudia
+  matched_by: domain
 - name: EverestLabs
   url: https://everestlabs.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everestlabs
+  slug: everestlabs
+  matched_by: domain
 - name: Expert Intelligence
   url: https://expertintelligence.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: expert-intelligence
+  slug: expert-intelligence
+  matched_by: domain
 - name: Fabric
   url: https://fabric.inc/
   sector: ecommerce
@@ -300,57 +328,64 @@ companies:
   sector: infrastructure
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: falcon
+  slug: falcon
+  matched_by: domain
 - name: Fintary
   url: https://fintary.com/
   sector: fintech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fintary
+  slug: fintary
+  matched_by: domain
 - name: Flarion
   url: https://flarion.io/
   sector: data
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flarion
+  slug: flarion
+  matched_by: domain
 - name: FriendliAI
   url: https://friendli.ai/
   sector: infrastructure
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: friendliai
+  in_network: true
+  is_api_provider: true
+  slug: friendliai
+  matched_by: domain
 - name: Genie AI
   url: https://genieai.tech/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genie-ai
+  slug: genie-ai
+  matched_by: name-slug
 - name: Gitar
   url: https://gitar.ai/
   sector: developer-tools
   status: acquired
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gitar
+  in_network: true
+  is_api_provider: true
+  slug: gitar
+  matched_by: domain
 - name: Hammoq
   url: https://hammoq.com/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hammoq
+  slug: hammoq
+  matched_by: domain
 - name: Hashnode
   url: https://hashnode.com/
   sector: developer-tools
@@ -365,137 +400,154 @@ companies:
   sector: edtech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: interplay-learning
+  slug: interplay-learning
+  matched_by: domain
 - name: Inventive
   url: https://inventive.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inventive
+  slug: inventive
+  matched_by: domain
 - name: Invisible AI
   url: https://invisible.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: invisible-ai
+  slug: invisible-ai
+  matched_by: domain
 - name: Joy
   url: https://withjoy.com/
   sector: marketplace
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: joy
+  slug: joy
+  matched_by: domain
 - name: K4Connect
   url: https://k4connect.com/
   sector: digital-health
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: k4connect
+  slug: k4connect
+  matched_by: domain
 - name: Krisp
   url: https://krisp.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: krisp
+  in_network: true
+  is_api_provider: true
+  slug: krisp
+  matched_by: domain
 - name: Kyros
   url: https://kyros.ai/
   sector: digital-health
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kyros
+  slug: kyros
+  matched_by: domain
 - name: Mantle
   url: https://withmantle.com/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mantle
+  slug: mantle
+  matched_by: domain
 - name: Modulate
   url: https://modulate.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: modulate
+  in_network: true
+  is_api_provider: true
+  slug: modulate
+  matched_by: domain
 - name: Movandi
   url: https://movandi.com/
   sector: hardware
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: movandi
+  slug: movandi
+  matched_by: domain
 - name: Outcomes4Me
   url: https://outcomes4me.com/
   sector: digital-health
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outcomes4me
+  slug: outcomes4me
+  matched_by: domain
 - name: PackageX
   url: https://packagex.io/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: packagex
+  in_network: true
+  is_api_provider: true
+  slug: packagex
+  matched_by: domain
 - name: Pantomath
   url: https://getpantomath.com/
   sector: data
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pantomath
+  slug: pantomath
+  matched_by: name-slug
 - name: Paro
   url: https://paro.ai/
   sector: fintech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paro
+  slug: paro
+  matched_by: domain
 - name: Phenom
   url: https://phenompeople.com/
   sector: hr-tech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: phenom
+  in_network: true
+  is_api_provider: true
+  slug: phenom
+  matched_by: name-slug
 - name: Planera
   url: https://planera.io/
   sector: construction-tech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: planera
+  slug: planera
+  matched_by: domain
 - name: Pluto
   url: https://trypluto.com/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pluto
+  slug: pluto
+  matched_by: name-slug
 - name: Podcastle
   url: https://podcastle.ai/
   sector: ai
@@ -510,73 +562,82 @@ companies:
   sector: data
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polymer
+  slug: polymer
+  matched_by: domain
 - name: ProductNow
   url: https://productnow.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: productnow
+  slug: productnow
+  matched_by: domain
 - name: Q-CTRL
   url: https://q-ctrl.com/
   sector: deep-tech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: q-ctrl
+  slug: q-ctrl
+  matched_by: domain
 - name: Quintessent
   url: https://quintessent.com/
   sector: deep-tech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quintessent
+  slug: quintessent
+  matched_by: domain
 - name: Reflection AI
   url: https://reflection.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reflection-ai
+  slug: reflection
+  matched_by: domain
 - name: Reify Health
   url: https://reifyhealth.com/
   sector: digital-health
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reify-health
+  slug: reify-health
+  matched_by: domain
 - name: Revalia Bio
   url: https://revaliabio.com/
   sector: biotech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: revalia-bio
+  slug: revalia-bio
+  matched_by: domain
 - name: Rill Data
   url: https://rilldata.com/
   sector: data
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rill-data
+  in_network: true
+  is_api_provider: true
+  slug: rill-data
+  matched_by: domain
 - name: Rocket
   url: https://rocket.new/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rocket
+  slug: rocket
+  matched_by: domain
 - name: Sedai
   url: https://sedai.io/
   sector: infrastructure
@@ -591,9 +652,10 @@ companies:
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: siena
+  slug: siena
+  matched_by: domain
 - name: Smallest AI
   url: https://smallest.ai/
   sector: ai
@@ -608,9 +670,10 @@ companies:
   sector: infrastructure
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spectro-cloud
+  in_network: true
+  is_api_provider: true
+  slug: spectro-cloud
+  matched_by: domain
 - name: Speedscale
   url: https://speedscale.com/
   sector: developer-tools
@@ -625,17 +688,19 @@ companies:
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supportlogic
+  slug: supportlogic
+  matched_by: domain
 - name: TeamOhana
   url: https://teamohana.com/
   sector: hr-tech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: teamohana
+  in_network: true
+  is_api_provider: true
+  slug: teamohana
+  matched_by: domain
 - name: Theta Labs
   url: https://thetalabs.org/
   sector: blockchain
@@ -650,46 +715,52 @@ companies:
   sector: ecommerce
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trendsi
+  slug: trendsi
+  matched_by: domain
 - name: VISO Trust
   url: https://visotrust.com/
   sector: security
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: viso-trust
+  in_network: true
+  is_api_provider: true
+  slug: viso-trust-protecht
+  matched_by: domain
 - name: Weav
   url: https://weav.ai/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: weav
+  slug: weav
+  matched_by: domain
 - name: Yalo
   url: https://yalochat.com/
   sector: ai
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yalo
+  slug: yalo
+  matched_by: name-slug
 - name: Zeni
   url: https://zeni.ai/
   sector: fintech
   status: active
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zeni
+  slug: zeni
+  matched_by: domain
 - name: Zimperium
   url: https://zimperium.com/
   sector: security
   status: acquired
   source: https://www.sierraventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zimperium
+  slug: zimperium
+  matched_by: domain
